@@ -1,0 +1,29 @@
+/* Define the dark theme CSS */
+body {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  nav ul li a {
+    color: #f9f9f9;
+  }
+  
+  section {
+    background-color: #444;
+    color: #f9f9f9;
+  }
+  
+  input[type="submit"] {
+    background-color: #008CBA;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #f9f9f9;
+    color: #333;
+  }

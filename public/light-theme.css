@@ -1,0 +1,29 @@
+/* Define the light theme CSS */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  nav ul li a {
+    color: #333;
+  }
+  
+  section {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  input[type="submit"] {
+    background-color: #008CBA;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+  }

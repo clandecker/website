@@ -4,9 +4,20 @@
     <title>My First Website</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="light-theme.css" id="theme-style">
     <style>
       /* Add any custom CSS styling here */
     </style>
+    <script>
+      function toggleTheme() {
+        var themeStyle = document.getElementById("theme-style");
+        if (themeStyle.href.endsWith("light-theme.css")) {
+          themeStyle.href = "dark-theme.css";
+        } else {
+          themeStyle.href = "light-theme.css";
+        }
+      }
+    </script>
   </head>
   <body>
     <header>
@@ -18,6 +29,7 @@
           <li><a href="#contact">Contact Me</a></li>
         </ul>
       </nav>
+      <button onclick="toggleTheme()">Toggle Theme</button>
     </header>
     <main>
       <section id="about">
